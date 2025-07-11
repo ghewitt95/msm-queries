@@ -10,6 +10,6 @@ class DirectorsController < ApplicationController
 
     @the_director = matching_records.at(0)
      
-    render({ :template => "director_template/details"  })
+    render({ :template => "director_template/details" })
   end
 end
